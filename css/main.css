@@ -1,0 +1,126 @@
+
+
+#container {
+    border: 2px solid black;
+    width: 700px;
+    height: 622px;
+    position: relative;
+    margin: 0;
+    padding: auto;
+}
+
+#title {
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding:5px;
+    width: 690px;
+    background-color: orange;
+}
+
+#title p {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px;
+    
+}
+
+.before #header  {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.monopoly #header  {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top:9px;
+    
+}
+
+.after #header  {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.before {
+    width: 27%;
+    float: left;  
+    border-right: 2px solid black;  
+    border-bottom: 2px solid black;  
+}
+
+.before p {
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.before img {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.monopoly {
+    padding-top: 45px;
+    width: 45%;
+    float: left;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;  
+}
+
+.monopoly p {
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: justify;
+    font-size: 18px;
+
+}
+
+.monopoly #second {
+    padding-bottom: 35px;
+}
+.monopoly img {
+    width: 100%;
+}
+
+.after {
+    width: 27%;
+    float: left;
+    border-bottom: 2px solid black;
+    padding-bottom: 39px;
+    margin-left: 0;
+}
+
+.after p {
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.after img {
+    width: 70%;
+    padding-bottom: 18px;
+    position: relative;
+    left: 30px;
+}
+
+.footer {
+    padding-top: 5px;
+    clear: left;
+    text-align: center;
+    background-color: rgb(247, 212, 14);
+}
+
+.footer span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#underlined {
+    text-decoration: underline;
+    color: rgb(109, 56, 109);
+}
